@@ -1,4 +1,5 @@
 import { Header } from "../Header"
+import { Footer } from "../footer"
 
 
 type LayoutProps = {
@@ -11,6 +12,7 @@ export const Layout = ({children}:LayoutProps) => {
             <main className="flex-1 flex flex-col mb-12">
                 {children}
             </main>
+            <Footer/>
         </div>
     )
 }
