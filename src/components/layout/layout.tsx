@@ -1,6 +1,6 @@
 import { Inter, PT_Sans_Caption } from "next/font/google"
-import { Header } from "../Header"
-import { Footer } from "../footer"
+import { Header } from "./Header";
+import { Footer } from "./footer";
 
 
 type LayoutProps = {
