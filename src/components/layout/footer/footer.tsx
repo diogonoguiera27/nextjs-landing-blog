@@ -10,7 +10,7 @@ export const Footer = () => {
             <Image src="/logo.svg" alt="Logo site" width={116} height={32} />
           </Link>
 
-          <nav className="flex flex-col md:flex-row items-center gap-4 text-sm text-muted-foreground">
+          <nav className="flex flex-col md:flex-row items-center gap-4 text-sm text-muted-foreground text-blue-100">
             <Link href="/termos-de-uso" className="hover:text-primary">
               Termos de uso
             </Link>
